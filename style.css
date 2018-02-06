@@ -1,0 +1,152 @@
+/*mobile first*/
+
+html{
+
+  font-family: Arial, Helvetica,sans-serif;
+  }
+
+/*Style for header and navigation bar*/
+
+.navbar{
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+
+}
+.navbar ul{
+  border-bottom: 1px dashed rgb(255, 0, 0);
+  list-style: none;
+  padding: 0;
+}
+
+.li-item{
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.li-item a:link, .li-item a:visited{
+  color:rgb(255, 0, 0);
+  cursor: hand;
+  text-decoration: none;
+}
+
+.li-item a:hover, .li-item a:active{
+  color: rgb(134, 12, 12);
+}
+
+/*Styles for first section of page-home section*/
+.home{
+  background-color: #000;
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+}
+
+
+.identityInfo{
+  color:rgb(255, 0, 0);
+}
+
+.identityInfo h1{
+  border-bottom: 1px dashed rgb(255, 0, 0);
+  border-top: 1px dashed rgb(255, 0, 0);
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.identityInfo p{
+  text-align: center;
+}
+
+.contactIcons{
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.contactIcons h2{
+  display: none;
+}
+
+/*Styles for second section of the page - about section*/
+.about{
+  background-color: rgb(200, 220, 221);
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+}
+
+.about img{
+  padding: 0.5rem 0;
+}
+
+/*Styles for third section of the page - portofolio section*/
+.portofolio{
+  background-color: rgb(240, 188, 206);
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+}
+
+.portofolio h2{
+  color:rgb(255, 0, 0);
+  font-size: 1.6rem;
+  padding-left: 0.5rem;
+}
+
+.portofolio h3{
+  color: #000;
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+}
+
+.portofolio a{
+  text-decoration: none;
+}
+.portofolio img{
+  padding: 0.5rem;
+}
+
+/*Styles for last section of the page - contact section*/
+.contact{
+  background-color: rgb(241, 211, 161);
+  height: auto;
+  margin: 0;
+  max-width: 100%;
+}
+
+.contactForm{
+  margin-left: 1rem;
+  max-width: 80%;
+}
+
+.formField{
+  margin-bottom: 1rem;
+}
+
+
+
+@media(min-width:800px){
+  body{
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .navbar{
+    float: right;
+    margin-right: 10%;
+  }
+
+  .identityInfo{
+    position: absolute;
+    right:23%;
+    top: 50%;
+  }
+
+  .about p{
+    padding-top: 2rem;
+  }
+
+}

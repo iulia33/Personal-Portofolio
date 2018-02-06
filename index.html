@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Iulia Munteanu-Personal Portofolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body class="fluid-container">
+    <a id = "home"></a>
+
+    <!--Navigation bar-->
+      <nav class="navbar row">
+        <ul>
+          <li class="li-item"><a href="#home">Home</a></li>
+          <li class="li-item"><a href="#about">About</a></li>
+          <li class="li-item"><a href="#portofolio">Portofolio</a></li>
+          <li class="li-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!--Home Page-->
+    <article class="home">
+      <section class="identity">
+          <img class="img-fluid" src="photos/persPorto.jpg" alt="This is me!">
+          <div class="identityInfo">
+            <h1>IULIA MUNTEANU</h1>
+            <p>Aspiring Front-End Web Developer</p>
+            <section class="contactIcons">
+              <h2>Contact links</h2>
+              <button name="linkedin"><a href="https://www.linkedin.com/in/iulia-munteanu-6169b15b/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></button>
+              <button name="github"><a href="https://github.com/iulia33/" target="_blank"><i class="fa fa-github"></i></a></button>
+              <button name="mail"><a href="https://mail.google.com" target="_blank"><i class="fa fa-envelope-o"></i></a></button>
+              <button name="facebook"><a href="https://www.facebook.com/iulia.cori" target="_blank"><i class="fa fa-facebook-official"></i></a></button>
+            </section>
+          </div>
+      </section>
+    </article>
+
+    <!--About Page-->
+    <article class="about row">
+      <a id="about"></a>
+      <img class="img-fluid col" src="photos/about.jpg" alt="Barcelona-Palau National">
+      <p class="text-justify col">
+        After working more than 10 years in the Financial field, I decided I need a new challenge in my life.
+        This is why, 8 months ago I started a front-end development course and graduated 3 months ago. Now, I'm
+        continuing my education and in the same time, looking for a job. I love web development and all it implies.
+        Other than that, I love reading, hiking, dancing, running. But most of all, I love travelling.
+      </p>
+    </article>
+
+    <!--Portofolio Page-->
+    <article class="portofolio">
+      <h2>My Portofolio</h2>
+      <a id="portofolio"></a>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="https://github.com/iulia33/my-online-cv" target="_blank">
+            <h3>My online CV</h3>
+            <img class="img-fluid" src="photos/myOnlineCv.png" alt="My Online CV">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="https://github.com/SomethingWentWrongButWeFixedIt/scola-informala-imdb" target="_blank">
+            <h3>My IMDB - Team Project</h3>
+            <img class="img-fluid" src="photos/myImdb.png" alt="My IMDB">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="https://github.com/iulia33/Iulia-s-blog" target="_blank">
+            <h3>My first blog</h3>
+            <img class="img-fluid" src="photos/firstBlog.png" alt="My first blog">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="https://codepen.io/iulia33/full/baXqBw/" target="_blank">
+            <h3>Tribute Page</h3>
+            <img class="img-fluid" src="photos/tributePage.png" alt="Tribute Page Coco Chanel">
+          </a>
+        </div>
+    </article>
+    <!--Contact Page-->
+    <article class="contact">
+      <a id="contact"></a>
+      <form class="col contactForm">
+        <legend>Contact me!</legend>
+        <div class="row formField">
+          <label for="name" class="col-sm-2">Your name:</label>
+          <input name="name" type="text" class="col-sm-10" placeholder="Your name here...">
+        </div>
+        <div class="row formField">
+          <label for="email" class="col-sm-2">Your email:</label>
+          <input type="email" name="email" class="col-sm-10" placeholder="Your email here...">
+        </div>
+        <div class="row formField">
+          <label for="message" class="col-sm-2">Your message:</label>
+          <textarea name="name" class="col-sm-10" rows="4" cols=80></textarea>
+        </div>
+        <div class="row formField">
+          <label for="send" class="col-sm-2"></label>
+          <button type="button" name="send" class="col-sm-2 sendBtn" value="Send"><i class="fa fa-paper-plane"></i>Send</button>
+        </div>
+      </form>
+      <footer class="card-footer">
+        <p class="text-center">&copy; Iulia Munteanu</p>
+        <section class="contactIcons">
+          <button name="linkedin"><a href="https://www.linkedin.com/in/iulia-munteanu-6169b15b/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></button>
+          <button name="github"><a href="https://github.com/iulia33/" target="_blank"><i class="fa fa-github"></i></a></button>
+          <button name="mail"<a href="https://mail.google.com" target="_blank"><i class="fa fa-envelope-o"></i></a></button>
+          <button name="facebook"><a href="https://www.facebook.com/iulia.cori" target="_blank"><i class="fa fa-facebook-official"></i></a></button>
+        </section>
+      </footer>
+    </article>
+  </body>
+</html>
